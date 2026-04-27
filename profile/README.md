@@ -1,32 +1,57 @@
-# Microsoft Singapore Public Safety & Defence Intelligence Demo Repository
+# Microsoft Singapore
 
-Welcome to the Microsoft Singapore Public Sector Demo Repository.  This repository was created to showcase sample solutions that run in the Azure, Power Platform and D365 in Government Commercial Cloud. 
+We're the **Microsoft Singapore** engineering & customer-engineering team. This org hosts sample solutions, accelerators, and reference architectures we build with and for our customers across the public sector, financial services, and ISV community in Singapore — spanning Azure, AI, Microsoft 365, Power Platform, and Dynamics 365.
 
-<img width="934" alt="Screenshot 2022-12-16 at 3 57 26 PM" src="https://user-images.githubusercontent.com/4599055/208051829-e3574591-4738-4543-911d-0f420206cbe8.png">
+## How we build
 
-## Demos
+We practice **spec-driven engineering** and **AI engineering** as the default way we deliver software with our customers.
 
-Below is a listing of the solutions available for use. These solution are meant for demonstration purposes only. 
+### 📜 Spec-driven engineering
 
-| Demo Name | Azure Commercial Cloud | GCC 1.0 | GCC 2.0 |
-| --------- | :---: | :----: | :---: |
-| [Event Attendance System](https://github.com/microsoftsg/Event-Management-System/) | :heavy_check_mark: | | |
-| [CAF Terraform Accelerator Kit for GCC 2.0](https://github.com/mspsdi/caf-terraform-gcc-starter-kit/) | | |:heavy_check_mark: |
+We start every engagement from a written specification — not a ticket, not a Figma, not a Slack thread. Specs are the source of truth that humans review, agents execute against, and tests verify.
 
-## Infrastructure As Code Templates
+- **Specs first** — problem statement, user journeys, acceptance criteria, and constraints are agreed before code is written.
+- **Specs as code** — specifications live next to the code in the repo (e.g. `/specs`, `AGENTS.md`, `.github/instructions/`), versioned and reviewed in PRs.
+- **Executable contracts** — OpenAPI, JSON Schema, and evals turn intent into machine-checkable artifacts.
+- **Traceable delivery** — every change links back to a spec section, so reviewers (human or AI) always know *why*.
 
+### 🤖 AI engineering
 
+We don't just build *with* AI assistants — we build AI products and apply AI engineering rigour to everything we ship.
 
-## Training Resources
+- **Agentic workflows** — multi-agent systems on Microsoft Agent Framework, Foundry, and Copilot Studio.
+- **Evals over vibes** — every AI feature ships with an offline eval suite, golden datasets, and tracing in production.
+- **Model-aware design** — picking the right model per task (frontier vs. SLM, hosted vs. on-device) and budgeting tokens / latency / cost up front.
+- **Responsible AI by default** — content safety, prompt-injection defences, grounding, and human-in-the-loop where it matters.
+- **Copilot-native developer loop** — GitHub Copilot, custom skills, and MCP servers wired into our day-to-day engineering.
 
+## What we focus on
 
+- ☁️ **Azure** — landing zones, IaC accelerators (Bicep / Terraform / AVM), GCC enablement
+- 🤖 **AI & Copilot** — M365 Copilot extensibility, Foundry agents, Azure AI Search
+- 🛡️ **Security & Public Sector** — GCC-ready patterns, Sentinel, threat intelligence
+- 🧱 **Platform & DevEx** — engineering playbooks, code-with engagements
 
-## Whitepapers
+## Featured projects
 
+| Project | What it is |
+| ------- | ---------- |
+| [caf-terraform-gcc-starter-kit](https://github.com/microsoft-sgp/caf-terraform-gcc-starter-kit) | CAF Terraform accelerator for Singapore Government Commercial Cloud. |
+| [avm-terraform-gcc-starter-labs](https://github.com/microsoft-sgp/avm-terraform-gcc-starter-labs) | Hands-on labs using Azure Verified Modules for GCC. |
+| [m365copilot-game](https://github.com/microsoft-sgp/m365copilot-game) | A fun M365 Copilot demo and learning sample. |
 
-## Grant Access
+> Browse all public repositories at [github.com/orgs/microsoft-sgp/repositories](https://github.com/orgs/microsoft-sgp/repositories).
 
-If you are unable to access the demos, please visit [Get Access](https://forms.office.com/r/wjG4Wg4fuV) to learn more!
+## Connect with us
+
+- 🌐 [Microsoft Singapore](https://www.microsoft.com/en-sg)
+- 💼 [Careers at Microsoft](https://careers.microsoft.com/)
+- 📺 [Microsoft Learn](https://learn.microsoft.com/)
+- 🧪 [Microsoft Reactor](https://developer.microsoft.com/reactor/)
+
+## Working with us
+
+Most repositories in this org are **Internal** to Microsoft or **Private** to specific customer engagements. If you're a Microsoft Singapore customer or partner and need access to a specific engagement repo, request it via our [Get Access](https://forms.office.com/r/wjG4Wg4fuV) form.
 
 ## Contributing
 
