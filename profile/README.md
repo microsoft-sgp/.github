@@ -1,5 +1,7 @@
 # Microsoft Singapore
 
+<img width="934" alt="Microsoft Singapore" src="https://user-images.githubusercontent.com/4599055/208051829-e3574591-4738-4543-911d-0f420206cbe8.png">
+
 We're the **Microsoft Singapore** engineering & customer-engineering team. This org hosts sample solutions, accelerators, and reference architectures we build with and for our customers across the public sector, financial services, and ISV community in Singapore — spanning Azure, AI, Microsoft 365, Power Platform, and Dynamics 365.
 
 ## How we build
